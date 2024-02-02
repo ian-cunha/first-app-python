@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<h1>{{ msginicial }}</h1>
+<h3>
+    Eu sou o {{nome}}!
+</h3>
+<p>
+    Profissão: {{dados.profissao}}
+</p>
+<p>
+    Github: {{dados.github}}
+</p>
+{% endblock %}
